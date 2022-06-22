@@ -96,7 +96,7 @@ function addTocart(itemId, productID) {
   
   data.cartTotal += data.product[productID].price; 
   
-  document.getElementById("checkoutPrice") = "$" + data.cartTotal.toFixed(2);
+  document.getElementById("checkoutPrice").innerHTML = "$" + data.cartTotal.toFixed(2);
   
   AddElement(itemId,productImage,productName,productPrice,productdescription,"basket")
   
