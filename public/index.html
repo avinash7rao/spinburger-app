@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spin Burger</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- https://fontawesome.com/ -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400"
+      rel="stylesheet"
+    />
+    <!-- https://fonts.google.com/ -->
+
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <div class="tm-container">
+      <div class="tm-row">
+        <!-- Site Header -->
+        <div class="tm-left">
+          <div class="tm-left-inner">
+            <div class="tm-site-header">
+              <em class="fas fa-coffee fa-3x tm-site-logo"></em>
+              <h1 class="tm-site-name">Spin Burger</h1>
+            </div>
+            <nav class="tm-site-nav">
+              <ul class="tm-site-nav-ul">
+                <li class="tm-page-nav-item">
+                  <a href="/" class="tm-page-link active">
+                    <em class="fas fa-mug-hot tm-page-link-icon"></em>
+                    <span>Menu</span>
+                  </a>
+                </li>
+                <li class="tm-page-nav-item">
+                  <a href="/about" class="tm-page-link">
+                    <em class="fas fa-users tm-page-link-icon"></em>
+                    <span>About Us</span>
+                  </a>
+                </li>
+                <li class="tm-page-nav-item">
+                  <a href="/basket" class="tm-page-link">
+                    <em class="fas fa-glass-martini tm-page-link-icon"></em>
+                    <span id="basketMenu">Checkout</span>
+                  </a>
+                </li>
+                <li class="tm-page-nav-item">
+                  <a href="/contact" class="tm-page-link">
+                    <em class="fas fa-comments tm-page-link-icon"></em>
+                    <span>Login</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="tm-right">
+          <main class="tm-main">
+            <noscript>You need to enable JavaScript to run this app.</noscript>
+            <div id="root"></div>
+          </main>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="product_details.js"></script>
+    <script src="checkout.js"></script>
+    <script src="Sitecore-WebTags.js"></script>
+  </body>
+</html>
