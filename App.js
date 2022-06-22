@@ -13,7 +13,7 @@ const posname = "AgencyQ Spin Burger";
 function App() {
   const location = useLocation();
   var viewEvent = {
-    browser_id: Boxever.getID(),
+    browser_id: window.Boxever.getID(),
     channel: "WEB",
     type: "VIEW",
     language: "EN",
